@@ -1,0 +1,121 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/wengtinghao/cubism lookat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57680
+Successfully changed project path to: /Users/wengtinghao/cubism lookat
+/Users/wengtinghao/cubism lookat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/wengtinghao/cubism lookat/Assets
+GfxDevice: creating device client; threaded=0
+2021-07-08 14:07:10.932 Unity[43416:4886694] (null) preferred device: Apple M1 (high power)
+2021-07-08 14:07:10.933 Unity[43416:4886694] Metal devices available: 1
+2021-07-08 14:07:10.933 Unity[43416:4886694] 0: Apple M1 (high power)
+2021-07-08 14:07:10.933 Unity[43416:4886694] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002212 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.269 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.779 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1304 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.6 MB.
+System memory in use after: 115.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.257375 ms (FindLiveObjects: 0.124791 ms CreateObjectMapping: 0.025917 ms MarkObjects: 1.023083 ms  DeleteObjects: 0.081583 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Live2D/Cubism
+  artifactKey: Guid(d6ad133bb0a773948a7a7623636de512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism using Guid(d6ad133bb0a773948a7a7623636de512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99325b9a2608328176fc9c00134342e0') in 0.005802 seconds
+  Import took 0.007454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Live2D
+  artifactKey: Guid(37c9d08d4153f9447aab204c87ddafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D using Guid(37c9d08d4153f9447aab204c87ddafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac03381ed69d4447afbec93cc11ec60') in 0.001063 seconds
+  Import took 0.002222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.638826 seconds.
+  path: Assets/Live2D/Cubism/Samples
+  artifactKey: Guid(30a843ce6323d8b4bb6febd2d997df46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism/Samples using Guid(30a843ce6323d8b4bb6febd2d997df46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1646dbc729d1ad031a755a882856381a') in 0.000909 seconds
+  Import took 0.003076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.270652 seconds.
+  path: Assets/Live2D/Cubism/Samples/LookAt
+  artifactKey: Guid(f8c378b13eddd804282d1e79ab2729ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism/Samples/LookAt using Guid(f8c378b13eddd804282d1e79ab2729ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d492ba09f39a138ecaff4eaffeb5873') in 0.001805 seconds
+  Import took 0.004212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155078 seconds.
+  path: Assets/Live2D/Cubism/Samples/LookAt/Cubism.png
+  artifactKey: Guid(e7136680d68312d48b5447b037ab9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism/Samples/LookAt/Cubism.png using Guid(e7136680d68312d48b5447b037ab9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649007198af5e28aa0a0b3b8606b81db') in 0.609211 seconds
+  Import took 0.611288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.325249 seconds.
+  path: Assets/Live2D/Cubism/Samples/LookAt/LookAt.unity
+  artifactKey: Guid(92700f2c6717d9748b6dd846ed2e72fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism/Samples/LookAt/LookAt.unity using Guid(92700f2c6717d9748b6dd846ed2e72fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baea9dc0e8368a0cb353107b366b12f4') in 0.001978 seconds
+  Import took 0.004415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008181 seconds.
+  path: Assets/Live2D/Cubism/Samples/LookAt/LookAt.unity
+  artifactKey: Guid(92700f2c6717d9748b6dd846ed2e72fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Live2D/Cubism/Samples/LookAt/LookAt.unity using Guid(92700f2c6717d9748b6dd846ed2e72fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baea9dc0e8368a0cb353107b366b12f4') in 0.001005 seconds
+  Import took 0.002674 seconds .
+
